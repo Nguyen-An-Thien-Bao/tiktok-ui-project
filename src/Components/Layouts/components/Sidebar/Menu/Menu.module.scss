@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 8px;
+
+    &.active {
+        color: red;
+    }
+}
+.menuItem--icon {
+    display: flex;
+}
+.menuItem--title {
+}
